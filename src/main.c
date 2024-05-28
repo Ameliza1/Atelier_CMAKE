@@ -39,16 +39,3 @@ int main(int argc, char *argv[]){
     }
     return 0;
 }
-		printf("%lf",r);
-	}
-	else if (strcmp(op, "car") == 0) {
-		r = _car(atof(a), atof(a));
-		printf("%lf",r);	
-	}
-	else {printf("Erreur de parametres");}
-	}
-	else {printf("Erreur de parametres");}
-	return 0;
-}
-
-		
